@@ -5,3 +5,34 @@ body,
     margin = 0;
     box-sizing: border-box;
 }
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+img{
+    margin: 0 auto;
+    display: block;
+}
+
+.anime1{
+    background-color: orange;
+    border-radius: 20px;
+    border: 2px solid black;
+    width: 26%;
+    margin-bottom: 40px
+}
+.narimg{
+    width: 80%;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
