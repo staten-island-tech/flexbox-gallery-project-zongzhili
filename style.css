@@ -27,12 +27,23 @@ img{
     margin-bottom: 40px
 }
 .narimg{
-    width: 80%;
+    width: 300px;
+}
+.anime2{
+    background-color: rgb(218, 75, 36);
+    border-radius: 20px;
+    border: 2px solid black;
+    width: 26%;
+    length: 80%;
+    margin-bottom: 40px
+}
+.opimg{
+    width: 300px;
 }
 .container{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
