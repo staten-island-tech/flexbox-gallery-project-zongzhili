@@ -18,6 +18,10 @@ img{
     margin: 0 auto;
     display: block;
     width: 300px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
 }
 
 .anime1{
@@ -25,7 +29,8 @@ img{
     border-radius: 20px;
     border: 2px solid black;
     width: 26%;
-    margin-bottom: 40px
+    margin-bottom: 40px;
+    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
 }
 .anime2{
     background-color: rgb(218, 75, 36);
@@ -33,15 +38,17 @@ img{
     border: 2px solid black;
     width: 26%;
     length: 80%;
-    margin-bottom: 40px
+    margin-bottom: 40px;
+    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
 }
 .anime3{
-    background-color: rgb(36, 218, 91);
+    background-color: rgb(184, 10, 243);
     border-radius: 20px;
     border: 2px solid black;
     width: 26%;
     length: 80%;
-    margin-bottom: 40px
+    margin-bottom: 40px;
+    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
 }
 .anime4{
     background-color: rgb(0, 0, 0);
@@ -49,7 +56,53 @@ img{
     border: 2px solid rgb(255, 255, 255);
     width: 26%;
     length: 80%;
-    margin-bottom: 40px
+    margin-bottom: 40px;
+    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+}
+.anime5{
+    background-color: rgb(140, 115, 232);
+    border-radius: 20px;
+    border: 2px solid rgb(0, 0, 0);
+    width: 26%;
+    length: 80%;
+    margin-bottom: 40px;
+    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+}
+.anime6{
+    background-color: rgb(78, 200, 237);
+    border-radius: 20px;
+    border: 2px solid rgb(0, 0, 0);
+    width: 26%;
+    length: 80%;
+    margin-bottom: 40px;
+    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+}
+.anime7{
+    background-color: rgb(238, 122, 13);
+    border-radius: 20px;
+    border: 2px solid rgb(0, 0, 0);
+    width: 26%;
+    length: 80%;
+    margin-bottom: 40px;
+    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+}
+.anime8{
+    background-color: rgb(21, 238, 13);
+    border-radius: 20px;
+    border: 2px solid rgb(0, 0, 0);
+    width: 26%;
+    length: 80%;
+    margin-bottom: 40px;
+    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+}
+.anime9{
+    background-color: rgb(0, 255, 208);
+    border-radius: 20px;
+    border: 2px solid rgb(0, 0, 0);
+    width: 26%;
+    length: 80%;
+    margin-bottom: 40px;
+    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
 }
 .whitefont{
     color:rgb(255, 255, 255)
