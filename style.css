@@ -25,7 +25,6 @@ img {
     border-radius: 20px;
     border: 2px solid black;
     width: 480px;
-    max-width: 500px;
     margin-bottom: 40px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5), 0 6px 20px rgba(0, 0, 0, 0.5);
     transition: all 0.3s;
@@ -74,7 +73,4 @@ img {
     25%{
 
     }
-}
-.naruto{
-
 }
