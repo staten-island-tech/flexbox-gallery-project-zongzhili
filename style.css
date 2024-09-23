@@ -1,136 +1,75 @@
-html,
-body,
-* {
-    padding = 0;
-    margin = 0;
+html, body, * {
+    padding: 0;
+    margin: 0;
     box-sizing: border-box;
     font-family: "Lato", sans-serif;
 }
-h1{
+
+h1, h2, p {
     text-align: center;
+    margin-top: 15px;
+    margin-bottom: 10px;
 }
-h2{
-    text-align: center;
-}
-p{
-    text-align: center;
-}
-img{
+
+img {
     margin: 0 auto;
     display: block;
     width: 300px;
     height: 200px;
     object-fit: cover;
     border-radius: 10px;
-    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5), 0 6px 20px rgba(0, 0, 0, 0.5);
 }
-.anime1{
-    background-color: orange;
+
+.anime {
     border-radius: 20px;
     border: 2px solid black;
-    width: 30%;
-    width: 500px;
+    width: 26%;
+    max-width: 500px;
     margin-bottom: 40px;
-    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5), 0 6px 20px rgba(0, 0, 0, 0.5);
     transition: all 0.3s;
 }
-.anime2{
-    background-color: rgb(218, 75, 36);
-    border-radius: 20px;
-    border: 2px solid black;
-    width: 30%;
-    width: 500px;
-    margin-bottom: 40px;
-    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
-    transition: all 0.3s;
+
+.anime1 { background-color: orange; }
+.anime2 { background-color: rgb(218, 75, 36); }
+.anime3 { background-color: rgb(184, 10, 243); }
+.anime4 { background-color: rgb(0, 0, 0); border: 2px solid rgb(255, 255, 255); }
+.anime5 { background-color: rgb(140, 115, 232); }
+.anime6 { background-color: rgb(78, 200, 237); }
+.anime7 { background-color: rgb(238, 122, 13); }
+.anime8 { background-color: rgb(21, 238, 13); }
+.anime9 { background-color: rgb(0, 255, 208); }
+
+.whitefont {
+    color: rgb(255, 255, 255);
 }
-.anime3{
-    background-color: rgb(184, 10, 243);
-    border-radius: 20px;
-    border: 2px solid black;
-    width: 30%;
-    width: 500px;
-    margin-bottom: 40px;
-    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
-    transition: all 0.3s;
-}
-.anime4{
-    background-color: rgb(0, 0, 0);
-    border-radius: 20px;
-    border: 2px solid rgb(255, 255, 255);
-    width: 30%;
-    width: 500px;
-    length: 80%;
-    margin-bottom: 40px;
-    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
-    transition: all 0.3s;
-}
-.anime5{
-    background-color: rgb(140, 115, 232);
-    border-radius: 20px;
-    border: 2px solid black;
-    width: 30%;
-    width: 500px;
-    margin-bottom: 40px;
-    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
-    transition: all 0.3s;
-}
-.anime6{
-    background-color: rgb(78, 200, 237);
-    border-radius: 20px;
-    border: 2px solid black;
-    width: 30%;
-    width: 500px;
-    margin-bottom: 40px;
-    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
-    transition: all 0.3s;
-}
-.anime7{
-    background-color: rgb(238, 122, 13);
-    border-radius: 20px;
-    border: 2px solid black;
-    width: 30%;
-    width: 500px;
-    margin-bottom: 40px;
-    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
-    transition: all 0.3s;
-}
-.anime8{
-    background-color: rgb(21, 238, 13);
-    border-radius: 20px;
-    border: 2px solid black;
-    width: 30%;
-    width: 500px;
-    margin-bottom: 40px;
-    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
-    transition: all 0.3s;
-}
-.anime9{
-    background-color: rgb(0, 255, 208);
-    border-radius: 20px;
-    border: 2px solid black;
-    width: 30%;
-    width: 500px;
-    margin-bottom: 40px;
-    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
-    transition: all 0.3s;
-}
-.whitefont{
-    color:rgb(255, 255, 255)
-}
-.container{
+
+.container {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-evenly;
 }
-.anime1:hover{
+
+.anime:hover {
     transform: scale(1.1) translateY(10px);
 }
-.anime2:hover{
-    transform: scale(1.1) translateY(10px);
+.animation{
+    height: 2rem;
+    width: 2rem;
+    animation: demo 5s infinite;
+    position: absolute;
+
 }
-.anime3:hover{
-    transform: scale(1.1) translateY(10px);
+@keyframes demo{
+    0%{
+        left: 50%;
+        bottom: 10%;
+        background-color: red;
+    }
+    25%{
+
+    }
 }
