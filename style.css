@@ -24,21 +24,40 @@ img {
 .anime {
     border-radius: 20px;
     border: 2px solid black;
-    width: 480px;
+    width: 450px;
     margin-bottom: 40px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5), 0 6px 20px rgba(0, 0, 0, 0.5);
     transition: all 0.3s;
 }
 
-.anime1 { background-color: orange; }
-.anime2 { background-color: rgb(218, 75, 36); }
-.anime3 { background-color: rgb(184, 10, 243); }
-.anime4 { background-color: rgb(0, 0, 0); border: 2px solid rgb(255, 255, 255); }
-.anime5 { background-color: rgb(140, 115, 232); }
-.anime6 { background-color: rgb(78, 200, 237); }
-.anime7 { background-color: rgb(238, 122, 13); }
-.anime8 { background-color: rgb(21, 238, 13); }
-.anime9 { background-color: rgb(0, 255, 208); }
+.anime1 { 
+    background-color: orange; 
+}
+.anime2 {
+    background-color: rgb(218, 75, 36); 
+}
+.anime3 {
+    background-color: rgb(184, 10, 243); 
+}
+.anime4 { 
+    background-color: rgb(0, 0, 0);
+    border: 2px solid rgb(255, 255, 255);
+}
+.anime5 { 
+    background-color: rgb(140, 115, 232);
+}
+.anime6 { 
+    background-color: rgb(78, 200, 237);
+}
+.anime7 { 
+    background-color: rgb(238, 122, 13); 
+}
+.anime8 { 
+    background-color: rgb(21, 238, 13); 
+}
+.anime9 { 
+    background-color: rgb(0, 255, 208); 
+}
 
 .whitefont {
     color: rgb(255, 255, 255);
@@ -63,6 +82,10 @@ img {
 
 }
 @media screen and (max-width: 100px){
+    .anime {
+        width: 100%;
+        margin-bottom: 20px;
+    }
 }
 @keyframes demo{
     0%{
@@ -71,6 +94,6 @@ img {
         background-color: red;
     }
     25%{
-
+        left: 
     }
 }
