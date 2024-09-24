@@ -81,7 +81,7 @@ img {
     transform:skew(5deg,3deg);
 }
 .anime5:hover {
-    transform: scale(0.9); /* Scale up slightly on hover */
+    transform: translateX(15px);
 }
 .animation{
     height: 2rem;
