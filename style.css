@@ -31,7 +31,7 @@ img {
 }
 
 .anime1 { 
-    background-color: orange; 
+    background-color: orange;
 }
 .anime2 {
     background-color: rgb(218, 75, 36); 
@@ -71,8 +71,17 @@ img {
     justify-content: space-evenly;
 }
 
-.anime:hover {
-    transform: scale(1.1) translateY(10px);
+.anime1:hover{
+    transform: scale(1.05) rotate(3deg);
+}
+.anime2:hover{
+    transform: translateY(-10px);
+}
+.anime3:hover{
+    transform:skew(5deg,3deg);
+}
+.anime5:hover {
+    transform: scale(0.9); /* Scale up slightly on hover */
 }
 .animation{
     height: 2rem;
