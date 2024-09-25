@@ -4,13 +4,14 @@ html, body, * {
     box-sizing: border-box;
     font-family: "Lato", sans-serif;
 }
-
+body {
+    background-color: beige;
+}
 h1, h2, p {
     text-align: center;
     margin-top: 15px;
     margin-bottom: 10px;
 }
-
 img {
     margin: 0 auto;
     display: block;
@@ -20,7 +21,6 @@ img {
     border-radius: 10px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5), 0 6px 20px rgba(0, 0, 0, 0.5);
 }
-
 .anime {
     border-radius: 20px;
     border: 2px solid black;
@@ -29,7 +29,6 @@ img {
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5), 0 6px 20px rgba(0, 0, 0, 0.5);
     transition: all 0.3s;
 }
-
 .anime1 { 
     background-color: orange;
 }
@@ -42,6 +41,7 @@ img {
 .anime4 { 
     background-color: rgb(0, 0, 0);
     border: 2px solid rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
 }
 .anime5 { 
     background-color: rgb(140, 115, 232);
@@ -50,19 +50,14 @@ img {
     background-color: rgb(78, 200, 237);
 }
 .anime7 { 
-    background-color: rgb(238, 122, 13); 
+    background-color: rgb(238, 122, 13);
 }
 .anime8 { 
-    background-color: rgb(21, 238, 13); 
+    background-color: rgb(21, 238, 13);
 }
 .anime9 { 
-    background-color: rgb(0, 255, 208); 
+    background-color: rgb(0, 255, 208);
 }
-
-.whitefont {
-    color: rgb(255, 255, 255);
-}
-
 .container {
     display: flex;
     flex-direction: row;
@@ -70,39 +65,64 @@ img {
     align-items: center;
     justify-content: space-evenly;
 }
-
 .anime1:hover{
     transform: scale(1.05) rotate(3deg);
 }
 .anime2:hover{
     transform: translateY(-10px);
 }
-.anime3:hover{
+.anime3:hover, .anime4:hover {
     transform:skew(5deg,3deg);
 }
 .anime5:hover {
     transform: translateX(15px);
 }
-.animation{
-    height: 2rem;
-    width: 2rem;
-    animation: demo 5s infinite;
-    position: absolute;
-
+.anime6:hover {
+    animation: pulse 1.5s infinite;
+}
+.anime7:hover {
+    animation: wobbleBottom 0.9s ease-out;
+}
+.anime8:hover {
+    transform: scale(0.8);
+}
+.anime9:hover {
+    transform: translate3d(20px,20px,30px);
+}
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+@keyframes wobbleBottom{
+    0% {
+        transform: rotate(1deg);
+    }
+    20% {
+        transform: rotate(3deg);
+    }
+    40% {
+        transform: rotate(1deg);
+    }
+    60% {
+        transform: rotate(0deg);
+    }
+    80% {
+        transform: rotate(1deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
 }
 @media screen and (max-width: 100px){
     .anime {
         width: 100%;
         margin-bottom: 20px;
-    }
-}
-@keyframes demo{
-    0%{
-        left: 50%;
-        bottom: 10%;
-        background-color: red;
-    }
-    25%{
-        left: 
     }
 }
